@@ -1,0 +1,772 @@
+
+<html>
+<head>
+<script src="mootools-1.2.4-core-yc.js" type="text/javascript"></script> 
+<script>
+window.addEvents({
+	'load':function(){
+		setContentHeight();
+	}
+});
+
+function setContentHeight(){
+	parent.setContentHeight(parseInt($('tblContents').getStyle('height')));
+}
+</script>
+<script language="JavaScript">
+<!--
+function printable()
+{
+var bgc;
+var fgc;
+var lc;
+var vlc;
+var alc;
+var bkg;
+bgc = document.bgColor;
+fgc = document.fgColor;
+lc =  document.linkColor;
+vlc = document.vlinkColor;
+alc = document.alinkColor;
+bkg = document.body.background;
+document.bgColor = "white";
+document.fgColor = "black";
+document.linkColor = "black";
+document.vlinkColor = "black";
+document.alinkColor = "black";
+document.body.background = "";
+focus()
+print()
+document.bgColor = bgc;
+document.fgColor = fgc;
+document.linkColor = lc;
+document.vlinkColor = vlc;
+document.alinkColor = alc;
+document.body.background = bkg;
+}
+//-->
+</script>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<style>
+body{
+	background-image:url('images2/hgurule_contentBg.jpg');
+	background-repeat:repeat-y;
+	background-color:#f8f4e9;
+}
+</style>
+
+<title>정보보안 규정</title>
+
+</head>
+
+<BODY  bgcolor="E8FFD0" >
+<div id="box">
+<div id="frameUpperLine">
+	<div class="homeNav"><strong><a href="/" target="_top">HOME</a></strong> < 행정 < 일반 행정 < 정보보안 규정&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Javascript:printable()">[프린트하기]</a></div>
+</div>
+
+<div style="text-align:center;">
+	<div id="tblContents">
+
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+	<tr><td colspan=2 align=center><br><font size="4"><b>
+	<a name="정보보안 규정">정보보안 규정
+	</a></b></font><p></td></tr>
+
+	<tr><td colspan=2 align=left><font size="2">
+	소관부서 : 정보인프라팀 1232-4
+	</font></td></tr>
+
+
+		<tr><td colspan="2" align=right >
+		<table border="0" cellpadding="0" cellspacing="0" >
+
+			<tr>
+			<td>
+				<font size="2">
+				제정 2012. 8. 28 규정 제165호
+				</font>
+			</td>
+			</tr>
+
+			<tr>
+			<td>
+				<font size="2">
+				개정 2020. 9. 9. 규정 제281호
+				</font>
+			</td>
+			</tr>
+
+		</table>
+		</td></tr>
+
+<tr><td colspan=2 align=center><br><font size="2">
+<b>|  </b>
+			<a href="#제 1 장 총칙">제 1 장 총칙</a><b> | </b> 
+
+			<a href="#제 2 장 정보보안 조직">제 2 장 정보보안 조직</a><b> | </b> 
+
+			<a href="#제 3 장 정보보안 정책·관리">제 3 장 정보보안 정책·관리</a><b> | </b> 
+<br><b>|  </b>
+			<a href="#제 4 장 인적보안 관리">제 4 장 인적보안 관리</a><b> | </b> 
+
+			<a href="#제 5 장 정보자산 관리">제 5 장 정보자산 관리</a><b> | </b> 
+
+			<a href="#제 6 장 정보시스템 보안 관리">제 6 장 정보시스템 보안 관리</a><b> | </b> 
+<br><b>|  </b>
+			<a href="#제 7 장 기타">제 7 장 기타</a><b> | </b> 
+
+			<a href="#부 칙">부 칙</a><b> | </b>
+
+			<a href="#별 표">별 표</a><b> | </b>
+
+			<a href="#별 지">별 지</a><b> | </b>
+
+		</font></td></tr>
+
+			<tr><td colspan="2" align=center ><br><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+					<td  width="80"></td>
+					<td align="center">
+					
+						<font size="3"><b>
+						<a name="제 1 장 총칙">제 1 장 총칙</a>
+						</b></font>
+					</td>
+					<td align="right" width="80">
+						<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+					</td>
+					</tr>
+				</table>
+			</td></tr>
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 1 조 </b>(목적) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+이 규정은 한동대학교(이하 &#34;이 대학교&#34;라 한다)의 정보자산을 보호하기 위하여 필요한 정보보안 업무처리 및 활동에 관한 사항을 규정함을 목적으로 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 2 조 </b>(용어의 정의) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+이 규정에서 사용하는 용어의 정의는 다음 각 호와 같다.<br>
+1. “정보시스템”이라 함은 서버·PC 등 단말기, 보조기억매체, 네트워크 장치, 응용프로그램 등 정보의 수집·가공·저장·검색·송수신에 필요한 하드웨어 및 소프트웨어 일체를 말한다.<br>
+2. “정보자산”이라 함은 이 대학교가 보유하고 있는 전자적 정보 및 정보시스템과 정보시스템의 운영·관리에 필요한 시설 등 본교 자산을 총칭한다.<br>
+3. “정보보안” 또는 “정보보호”라 함은 전산망 또는 정보시스템을 통해 수집, 가공, 저장, 검색, 송·수신되는 정보의 유출, 위·변조, 훼손 등을 방지하기 위하여 관리적·물리적·기술적 수단을 강구하는 일체의 행위를 말한다.<br>
+4. “침해사고”란 외부 또는 내부의 악의적인 사용자에 의한 비 인가된 시스템 사용, 사용자 계정의 도용, 악성코드(웜, 바이러스 등) 유입 및 실행, 정보시스템방해 등 시스템의 서비스를 왜곡 또는 지연시키거나 정보자산을 유출, 파괴하거나 데이터를 변조, 삭제하는 등의 일체의 행위를 말한다.<br>
+5. “구성원”이라 함은 이 대학교 소속으로 정보자산에 접근 또는 사용허가를 받은 교원, 직원, 학생 등을 말한다.<br>
+6. “외부자”라 함은 이 대학교와 계약에 의해 용역 및 서비스를 제공하는 외부 전문가 및 외부용역업체, 기타 이 대학교 정보자산에 접근 또는 사용허가를 받은 자 및 업체를 말한다.<br>
+7. “사용자”라 함은 이 대학교 정보자산을 사용하고 관리하는 모든 구성원과 외부자를 말한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 3 조 </b>(적용대상 및 범위) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 이 대학교의 정보자산을 이용하거나 관리하는 모든 구성원과 외부자를 적용대상으로 한다.<br>
+② 정보보호가 필요한 이 대학교의 정보자산과 그 부대시설을 적용범위로 한다.<br>
+③ 개인정보보호에 관한 사항은 관련 법규와 이 대학교의 ‘개인정보 내부관리 계획’을 따른다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 4 조 </b>(의무 및 책임) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 사용자는 이 규정 및 관련 지침과 관련 법률을 준수하여야 하며, 자신에게 부여된 권한 내에서 정보자산을 보호할 의무와 책임이 있다.<br>
+② 각 기관(부서)의 장에게는 소관부서에서 생산, 가공, 유통, 관리, 파기되는 정보자산 및 다른 부서 또는 외부에 접근이 허용된 정보자산에 대하여 보안 책임이 있다.<br>
+③ 사용자에게는 이 대학교의 정보자산을 사용하거나 본인 계정으로 전산망에 접속하는 것과 관련한 모든 행위에 보안 책임이 있다.
+					</font></td></tr>
+
+
+			<tr><td colspan="2" align=center ><br><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+					<td  width="80"></td>
+					<td align="center">
+					
+						<font size="3"><b>
+						<a name="제 2 장 정보보안 조직">제 2 장 정보보안 조직</a>
+						</b></font>
+					</td>
+					<td align="right" width="80">
+						<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+					</td>
+					</tr>
+				</table>
+			</td></tr>
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 5 조 </b>(정보보안담당관 지정 및 역할) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 정보보안담당관은 학술정보처장이 당연직으로 한다.<br>
+② 정보보안담당관의 책임과 역할은 다음 각 호와 같다.<br>
+1. 정보보안 업무 총괄 및 최고 책임자<br>
+2. 정보보안 정책 수립 및 시행<br>
+3. 정보보안 관련 제반 업무 관리 감독
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 6 조 </b>(정보보안 조직 구성 및 역할) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 정보보안담당관은 정보보안담당부서의 직원을 정보보안관리자, 정보보안담당자 등으로 선임하여 정보보안 조직을 구성.운영한다. 정보보안담당부서는 직제 및 업무분장 규정에서 정한 바에 따른다.<br>
+② 정보보안관리자는 이 대학교의 정보보안 관련 업무계획을 수립하고 이행하는 책임이 있으며 정보보안담당자를 통해 다음 각 호의 정보보호 활동을 수행한다.<br>
+1. 정보보안 관리체계의 수립 및 시행<br>
+2. 정보보안시스템 운영 및 관리<br>
+3. 정보보호 취약점 분석·평가 및 개선<br>
+4. 침해사고의 예방 및 대응<br>
+5. 그 밖에 이 대학교의 정보보호를 위하여 필요한 조치의 이행<br>
+③ 정보보안분임관리자는 각 부서장 또는 각 팀(실)장으로 하며 소관부서내에서 정보보안 실무를 관리·감독하는 등의 역할을 수행한다. 정보보안분임관리자는 소관부서내에서 정보보안분임담당자를 지정하여 정보보안 실무를 수행하게 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 7 조 </b>(정보보안심의위원회) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+정보보안 정책수립·심의 및 관리를 위하여 위원회를 두고 다음 각 호의 역할을 수행한다.<br>
+1. 정보보안 규정 심의와 정보보안 현안 심의<br>
+2. 정보보안사고 처리에 관한 사항 심의<br>
+3. 그 밖에 정보보호 관련 주요사항 심의
+					</font></td></tr>
+
+
+			<tr><td colspan="2" align=center ><br><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+					<td  width="80"></td>
+					<td align="center">
+					
+						<font size="3"><b>
+						<a name="제 3 장 정보보안 정책·관리">제 3 장 정보보안 정책·관리</a>
+						</b></font>
+					</td>
+					<td align="right" width="80">
+						<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+					</td>
+					</tr>
+				</table>
+			</td></tr>
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 8 조 </b>(기본수칙) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 사용자는 다음 각 호의 정보보안 기본수칙을 준수하여야 한다.<br>
+1. 개인별 사용자 계정 및 비밀번호의 기밀을 유지해야 하며 본래의 목적으로만 사용하여야 한다.<br>
+2. 허가 받은 정보시스템의 사용권한이 부여된 영역에 대하여 본래의 목적으로만 사용하여야 한다.<br>
+3. 정보시스템의 성능저하 및 보안상 위험을 초래할 수 있는 행위를 해서는 안되며, 이러한 행위를 발견한 경우에는 소속부서의 장 또는 정보보안담당부서에게 즉시 알려야 한다.<br>
+4. 정보자산과 연관된 저작권, 특허권 및 소프트웨어 라이선스의 사용조건을 숙지하고 이를 준수하여야 한다.<br>
+5. 교내에 전산망을 신설, 변경 및 폐기하고자 하는 경우에는 정보보안담당관의 사전 승인을 얻어야 한다.<br>
+6. 업무와 관련하여 습득한 정보자산을 허가 없이 외부에 누출해서는 아니 된다.<br>
+② 정보보안담당부서는 전산망과 정보시스템의 안전성 및 정보보안 규정의 준수 여부를 주기적으로 점검하여야 하며 사용자는 이에 적극 협조하여야 한다.<br>
+③ 정보보안담당관은 이 대학교의 정보자산이 침해를 받거나 부적절하게 사용되는 경우 정보보호를 위해 정보자산 이용제한 또는 서비스 제한 등의 제재조치를 취할 수 있다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 9 조 </b>(정보화 사업 추진 시 사전협조) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+다음 각 호에 해당하는 정보화사업을 추진하는 경우, 사업주관부서는 정보보안담당부서에 사전 협조하여야 한다.<br>
+1. 이 대학교 전체 구성원을 대상으로 하는 정보서비스 구축<br>
+2. 학사행정 데이터베이스와 연동하는 정보서비스 구축<br>
+3. 중앙전산실 내에 설치되는 시스템 도입
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 10 조 </b>(정보보안 규정 및 지침의 권리) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+이 규정 및 지침의 적절성을 유지하고 정보보안 관련 법령 제·개정 및 대내외 정보보안 및 IT환경에 중대한 변화 등을 반영하기 위하여 정기적으로 개정 여부를 검토한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 11 조 </b>(정책의 준수 및 위반시 조치) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 사용자는 본 규정을 숙지 및 준수하여야 하며 담당 업무에 적용하여야 한다.<br>
+② 사용자가 이 규정을 위반하면 관련 규정에 따라 징계될 수 있으며 사안에 따라서는 고발 조치될 수 있다.<br>
+③ 정보보안 위반사항 및 위규자의 처벌기준은 [별표 1]에 따른다.
+					</font></td></tr>
+
+
+			<tr><td colspan="2" align=center ><br><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+					<td  width="80"></td>
+					<td align="center">
+					
+						<font size="3"><b>
+						<a name="제 4 장 인적보안 관리">제 4 장 인적보안 관리</a>
+						</b></font>
+					</td>
+					<td align="right" width="80">
+						<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+					</td>
+					</tr>
+				</table>
+			</td></tr>
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 12 조 </b>(교직원 보안) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 인사담당자는 교직원 채용 시 정보보안서약서(별지 제1호 서식)를 받아야 한다.<br>
+② 각 부서장은 소관부서내 인원의 인사 변경(신규채용, 보직변경, 퇴직 등)시 학사·행정시스템 관리부서에 정보시스템 접근권한 변경을 요청하여야 한다.<br>
+③ 교직원은 퇴직 시 재직 중 보유한 모든 정보자산을 반환해야 할 의무가 있으며, 각 부서장은 소관부서내 퇴직자의 정보자산을 학교에 귀속시킬 책임이 있다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 13 조 </b>(외부자 보안관리) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 외부 서비스를 이용하거나 학교 내 업무를 외부자에게 위탁하는 기관은 이에 따른 정보보호 요구사항을 식별하고 관련 내용을 계약서 등에 명시하여야 한다.<br>
+② 사업주관부서는 외부자에 대한 보안관리 책임이 있으며, 보안 요구사항에 대해 외부자에게 명확히 고지하고 정보보안서약서(별지 제2호 서식)를 받아야 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 14 조 </b>(용역사업 보안관리) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 정보화사업을 외부 용역으로 추진할 경우 사업주관부서는 용역사업 보안대책을 수립·시행하여야 한다.<br>
+② 용역사업 보안관리에 관한 세부 사항은 「용역사업 보안관리 지침」을 따른다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 15 조 </b>(정보보안 교육) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+정보보안담당부서는 연 1회 이상 정보보안 교육을 시행하여야 하며, 교직원은 매년 시행되는 정보보안 교육을 이수하여야 한다.
+					</font></td></tr>
+
+
+			<tr><td colspan="2" align=center ><br><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+					<td  width="80"></td>
+					<td align="center">
+					
+						<font size="3"><b>
+						<a name="제 5 장 정보자산 관리">제 5 장 정보자산 관리</a>
+						</b></font>
+					</td>
+					<td align="right" width="80">
+						<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+					</td>
+					</tr>
+				</table>
+			</td></tr>
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 16 조 </b>(정보자산관리 및 위험관리) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 정보보안분임관리자는 소관부서내 정보자산에 대해서 정보자산 분류기준(별표 2)에 따라 정보자산을 분류하고 정보자산 중요도 평가기준 및 등급(별표 3)에 따라 중요도를 평가하여 정보자산관리대장(별지 제3호 서식)을 작성하여 관리한다.<br>
+② 정보보안분임관리자는 정보자산의 신규, 변경, 폐기 등 정보자산의 변경이 발생한 경우 정보자산관리대장에 기입하고 정보보안관리자에게 통보한다.<br>
+③ 정보보안관리자는 정보보안분임관리자에 의해 식별된 정보자산에 대한 식별 및 분류와  중요도 평가의 적절성을 점검하고 다음 각 호의 업무를 수행하여 이 대학교의 주요 정보자산을 통합 관리한다.<br>
+1. 정보시스템을 포함한 주요 정보자산을 연1회 이상 식별하고 관리한다.<br>
+2. 정보자산관리대장을 통합 관리하며 최신으로 유지한다.<br>
+3. 정보자산 중요도 등급이 높은 대상을 선정하여 연1회 이상 취약점 진단을 실시한다.<br>
+4. 정보자산에 대한 위험분석 및 평가를 연1회 이상 수행하고 일정수준 이상의 위험에 대해 보호대책을 수립한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 17 조 </b>(정보자산 도입 시 보안성 검토) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+전산망 또는 정보시스템의 신·증설, 정보보안시스템 도입 등과 같이 보안성 검토가 요구되는 정보자산의 도입 시에는 사업계획 단계에서 보안성 검토를 실시하여야 한다. 다만, 다음 각 호에 해당하는 경우에는 보안성 검토를 생략할 수 있다.<br>
+1. CC인증제품 등 공신력 있는 기관의 인증된 제품<br>
+2. 정보시스템 단순교체 등 사안이 경미하다고 판단되는 경우
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 18 조 </b>(정보자산의 설치 및 변경) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 정보자산의 설치 및 변경으로 인하여 서비스 연속성에 영향이 있을 경우는 이를 사전에 공지하여야 한다.<br>
+② 정보자산의 설치 및 변경 시에는 보안관련 기술적 보안 조치사항을 고려하여 적용한다. <br>
+③ 정보자산 관리부서는 설치 또는 변경되는 정보자산에 대한 보유현황을 최신의 상태로 유지하여야 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 19 조 </b>(정보자산의 매각 및 폐기) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 하드웨어의 매각이나 폐기 시 해당 하드웨어 관리자는 반출 전에 하드웨어에 적재된 모든 구성설정정보, 로그정보, 비밀번호 등을 포함한 일체의 내용을 초기화 또는 삭제하여야 한다.<br>
+② 하드디스크 등의 저장장치가 부착된 하드웨어(서버, 스토리지, PC 등)는 매각이나 폐기 시, 분리하여 별도 파기하거나 기록된 데이터를 삭제하고 포맷하여 해당 정보가 복구될 수 없도록 해야 한다. 다만, PC의 경우에는 해당 PC 사용자가 데이터 포맷의 책임을 갖는다.<br>
+④ 백업 미디어 등과 같은 기록매체는 폐기 시 데이터 삭제 및 포맷 후 폐기하여야 하며, 필요한 경우 물리적으로 완파하여야 한다.<br>
+⑤ 정보자산 운영에 필요한 문서 등은 안전하게 파쇄 또는 소각해야 한다.<br>
+⑥ 정보자산의 폐기를 전문 업체를 통해 시행할 경우, 정보의 유출과 관련한 보안사항을 계약서에 반영하여야 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 20 조 </b>(전자정보 저장매체 불용처리) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 사용자 및 시스템운영자는 하드디스크 등 전자정보 저장매체를 불용처리(교체ㆍ반납ㆍ양여ㆍ폐기 등) 하고자 할 경우에는 정보보안분임담당자의 승인하에 저장매체에 수록된 자료가 유출되지 않도록 보안 조치를 하여야 한다.<br>
+② 정보시스템 저장매체 불용처리 세부절차는 자산관리부서와 별도로 협의하여 시행한다.<br>
+③ 전자정보 저장매체의 불용처리에 관한 구체적인 사항은 교육부 「정보시스템 저장매체 불용처리 지침」을 따른다.
+					</font></td></tr>
+
+
+			<tr><td colspan="2" align=center ><br><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+					<td  width="80"></td>
+					<td align="center">
+					
+						<font size="3"><b>
+						<a name="제 6 장 정보시스템 보안 관리">제 6 장 정보시스템 보안 관리</a>
+						</b></font>
+					</td>
+					<td align="right" width="80">
+						<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+					</td>
+					</tr>
+				</table>
+			</td></tr>
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 21 조 </b>(정보시스템 운영 보안) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+정보시스템 운영자는 정보시스템의 안정적인 운영을 위하여 다음 각 호와 같은 활동을 수행하여야 한다.<br>
+1. 주요 정보시스템의 보안성 검증, 운영관리, 접근통제, 패치, 로그 관리 및 모니터링, 백업 등 보안관리 업무를 수행한다.<br>
+2. 주요 정보시스템의 정기적 취약점 점검을 수행하고 발견된 취약점을 제거한다.<br>
+3. 저장매체의 폐기 또는 재사용 시 처리절차를 따라 중요정보의 유출을 방지한다.<br>
+4. 중요정보의 전송 및 저장 시 정보의 유출을 방지하기 위하여 암호화 적용 및 암호통제를 수행한다.<br>
+5. 비인가자의 접근을 방지하기 위하여 정보시스템 영역별로 접근통제를 수행한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 22 조 </b>(응용프로그램 개발 보안) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+응용프로그램의 개발, 유지보수 및 운영에 필요한 보안사항을 정하고 운영·관리함으로써 정보자산을 안전하고 효율적으로 보호하기 위한 활동을 수행하여야 한다.<br>
+1. 응용프로그램의 개발 및 변경 시 정보보호 관련 법적 요구사항, 최신 보안취약점, 개발 보안 사항 등을 고려하여 인증, 암호화, 로그, 권한 등의 보안 요구사항을 정의하고 이를 적용하여야 한다.<br>
+2. 응용프로그램 개발 시 검토되어야 할 정보보안 통제 사항을 소프트웨어 설계, 구현, 시험, 이관 별로 작성하여 적절히 통제하여야 한다.<br>
+3. 응용프로그램의 개발 및 시험 시스템은 원칙적으로 운영시스템과 물리적으로 분리하여야 하며, 시험데이터 및 소스 프로그램의 보호대책을 마련하여야 한다.<br>
+4. 응용프로그램의 개발을 위부 위탁하는 경우 개발 보안에 대한 요구사항을 계약 시 반영하여야 하며, 보안요구사항의 준수여부를 관리·감독하여야 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 23 조 </b>(물리적 보안) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+보안시스템, 주요 네트워크 장비 및 서버 등의 정보자산 설치 시 안전한 유지와 보호를 위해 다음 각 호와 같은 물리적 보안 활동을 수행하여야 한다.<br>
+1. 통제구역, 제한구역 등 물리적 보호구역을 설정 및 관리한다.<br>
+2. 각 보호구역별로 비인가 물리적 접근, 유출, 손상으로부터 보호하기 위한 대책을 적용하여야 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 24 조 </b>(사이버보안진단의 날) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 매월 세 번째 수요일을 ‘사이버보안진단의 날'로 지정하여 운영한다.<br>
+② 모든 기관 및 사용자는 정보보안담당부서에서 지정한 정보보호 소프트웨어를 이용하여 PC보안점검을 포함한 사이버보안진단을 수행하여야 한다.<br>
+③ 모든 정보시스템 운영자는 운영하는 정보자산에 대하여 보안점검을 실시한다.<br>
+④ 정보보안분임관리자는 소관부서내의 정보자산에 대해 보안점검을 확인하고 이상이 있을 시 그 결과를 정보보안관리자에게 통보한다.<br>
+⑤ 정보보안담당관은 사이버보안진단을 수행하지 않은 사용자의 전산망 접속을 제한할 수 있다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 25 조 </b>(침해사고 대응) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+① 정보보안담당부서는 침해사고에 신속하고 효과적으로 대처하기 위한 대책을 수립하여 관리하여야 한다.<br>
+② 정보보안담당부서는 침해사고 발생 시 신속한 대응을 위하여 침해사고대응팀을 구성·운영할 수 있고 비상연락체계를 수립하여야 한다.<br>
+③ 사용자는 침해사고 징후 또는 발생을 인지한 경우 정보보안담당부서에 즉시 신고하여야 한다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 26 조 </b>(재해복구 계획) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+정보보안담당부서는 재난 발생 시 최소한의 업무수행을 위해 재해복구계획을 수립하여야 한다.
+					</font></td></tr>
+
+
+			<tr><td colspan="2" align=center ><br><br>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+					<td  width="80"></td>
+					<td align="center">
+					
+						<font size="3"><b>
+						<a name="제 7 장 기타">제 7 장 기타</a>
+						</b></font>
+					</td>
+					<td align="right" width="80">
+						<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+					</td>
+					</tr>
+				</table>
+			</td></tr>
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 27 조 </b>(세부지침) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+이 규정의 업무를 수행하기 위한 지침을 따로 정할 수 있다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 28 조 </b>(준용) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+정보보안과 관련하여 이 규정에 명시되지 않은 사항은 교육부 「정보보안 기본지침」 및 관계 법령에 따른다.
+					</font></td></tr>
+
+
+					<tr><td colspan="2" ><br><font size="2">
+				<b>제 29 조 </b>(예외적용) 
+					</font></td></tr>
+
+					<tr>
+					<td width="15">  </td>
+				  	<td><font size="2">
+이 규정에서 명시한 내용일지라도 다음 각 호에 해당하는 경우에는 정보보안담당관의 승인을 받아 예외 취급할 수 있다.<br>
+1. 기술환경의 변화로 적용이 불가능할 경우<br>
+2. 기술적, 관리적 필요에 따라 규정의 적용을 보류할 긴급한 사유가 있을 경우<br>
+3. 기타 재해 등 불가항력적인 상황일 경우<br>
+4. 기관의 특성에 따라 본 규정의 일부 적용이 불가능할 경우 정보보안 조직의 승인을 거쳐 기관용 지침을 별도로 제정하여 운영할 수 있다.
+					</font></td></tr>
+
+
+		<tr><td colspan=2 align=center><br><br><font size="3"><b>
+ 
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+				<td  width="80"></td>
+				<td align="center"><font size="3"><b>
+					<a name="부 칙">부 칙</a>
+					</b></font>
+				</td>
+				<td align="right" width="80">
+					<a href="#정보보안 규정"> <font size="2">TOP</font></a>
+				</td>
+				</tr>
+			</table>
+
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+	이 규정은 2012년 9월 1일부터 시행한다.(개정 2012. 8. 28 규정 제165호)<br>
+		</font></td>
+		</tr>
+
+		<tr><td colspan=2 align=center><br><br><font size="3"><b>
+부 칙 
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+	①(시행일)이 개정 규정은 2020년 9월 9일부터 시행한다.(개정 2020. 9. 9. 규정 제281호)_전문개정<br>
+②(경과조치) 특별한 사유에 의하여 이 규정에서 정하는 요건을 충족하지 못한 경우에는 시행일로부터 1년 이내에 개선방안을 강구하여야 한다.<br>
+③(폐지 규정) 이 규정 시행일 이전의 「정보보안 세칙」은 이 규정으로 통합되므로 시행일 기준으로 폐지한다.<br>
+		</font></td>
+		</tr>
+
+		<tr><td colspan=2 align=center><font size="3"><b>
+ 
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+				<td  width="80"></td>
+				<td align="center"><font size="3"><br><br><b>
+					<a name="별 표">별 표</a>
+					</b></font>
+				</td>
+				<td align="right" width="80">
+					<a href="#정보보안 규정"><br><br><font size="2">TOP</font></a>
+				</td>
+				</tr>
+			</table>
+
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+( 별표1 ) 
+		<a href="./RuleWork/file/3126별표1.hwp">정보보안 위반사항 및 위규자 처벌기준</a>
+		</font></td>
+		</tr>
+
+		<tr><td colspan=2 align=center><font size="3"><b>
+
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+( 별표2 ) 
+		<a href="./RuleWork/file/3126별표2.hwp">정보자산 분류기준</a>
+		</font></td>
+		</tr>
+
+		<tr><td colspan=2 align=center><font size="3"><b>
+
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+( 별표3 ) 
+		<a href="./RuleWork/file/3126별표3.hwp">정보자산 중요도 평가기준 및 등급</a>
+		</font></td>
+		</tr>
+
+		<tr><td colspan=2 align=center><font size="3"><b>
+ 
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+				<td  width="80"></td>
+				<td align="center"><font size="3"><br><br><b>
+					<a name="별 지">별 지</a>
+					</b></font>
+				</td>
+				<td align="right" width="80">
+					<a href="#정보보안 규정"><br><br><font size="2">TOP</font></a>
+				</td>
+				</tr>
+			</table>
+
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+( 별지1 ) 
+		<a href="./RuleWork/file/3126별지1.hwp">정보보안서약서(교직원용)</a>
+		</font></td>
+		</tr>
+
+		<tr><td colspan=2 align=center><font size="3"><b>
+
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+( 별지2 ) 
+		<a href="./RuleWork/file/3126별지2.hwp">정보보안서약서(외부자용)</a>
+		</font></td>
+		</tr>
+
+		<tr><td colspan=2 align=center><font size="3"><b>
+
+		<tr>
+		<td width="15">  </td>
+		<td><font size="2"><br>
+( 별지3 ) 
+		<a href="./RuleWork/file/3126별지3.hwp">정보자산관리대장</a>
+		</font></td>
+		</tr>
+
+
+	</table>
+
+	</div>
+</div>
+</div>
+</BODY>
+</html>
+
